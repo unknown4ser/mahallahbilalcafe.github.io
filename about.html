@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mahallah Bilal Cafe</title>
+
+    <!--CSS Style-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Import FontAwesome Style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <img src="Images/Logo2.png" class="logo">
+        <ul class="sidebar"><b>
+            <li class="hide" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="stall.html">MENU</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="review.html">REVIEW</a></li>
+        </b></ul>
+        <ul><b>
+            <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+            <li class="hideOnMobile"><a href="stall.html">MENU</a></li>
+            <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+            <li class="hideOnMobile"><a href="review.html">REVIEW</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </b></ul>
+    </nav>
+
+    <header><h4>ABOUT US</h4></header>
+    <div class="about">
+        <div class="about-content">
+            <div id="story">
+                <h5>OUR STORY</h5>
+                <p>
+                    Mahallah Bilal Cafeteria is the heart of campus dining, fostering a sense of community with diverse, high-quality, and affordable meals.
+                    From humble beginnings, we've grown into a hub reflecting the campus spirit, offering quick bites, relaxing spaces, and memorable dining experiences.
+                </p>
+            </div>
+
+            <div id="mission-vision">
+                <h5>MISSION & VISION</h5>
+                <p>
+                    <strong>Mission:</strong> To create a vibrant dining hub that promotes community, convenience, and connection.
+                    <br><strong>Vision:</strong> To be the premier choice for campus dining, known for variety, quality, and service excellence.
+                    We aim to enrich the campus experience by fostering an inclusive atmosphere, celebrating cultures, and delivering exceptional service.
+                </p>
+            </div>
+
+            <div id="team">
+                <h5>OUR TEAM</h5>
+                <p>
+                    Our dedicated team of chefs and staff work tirelessly to create delicious meals and ensure a welcoming atmosphere.
+                    Their passion and commitment to excellence make every dining experience special, celebrating diversity and building lasting connections.
+                    </p>
+            </div>
+
+            <div id="commitment">
+                <h5>OUR COMMITMENT</h5>
+                <p>
+                    We prioritize sustainability by sourcing fresh, local ingredients and minimizing waste. Partnering with local vendors, we support the community while offering
+                    inclusive menu options for all dietary needs. Constantly evolving through your feedback, we aim to serve you better and create a cafeteria that feels like home.
+                    </p>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <div class="section" id="location">
+                <h5>LOCATION</h5>
+                <p>
+                    <div id="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15933.656065830934!2d101.72984890929371!3d3.2467970712359255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38e885c4496d%3A0xe9034d1657fe6491!2sMahallah%20Bilal%20Cafe!5e0!3m2!1sen!2sau!4v1735725218418!5m2!1sen!2sau" 
+                            width=100% 
+                            height="337"                                
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </p>
+            </div>
+
+
+            <div class="section" id="contact">
+                <h5>LOCATION</h5>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="#">+6012 9859630</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="https://maps.app.goo.gl/3Cax1dyEwz28s9kV9">Mahallah Bilal Cafe, IIUM, Selangor, Malaysia</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+     <footer>
+        <p>&copy; 2025 Mahallah Bilal Cafe. All rights reserved.</p>
+    </footer>
+
+    <!--JS Code File-->
+    <script src="script.js"></script>
+</body>
+</html>
